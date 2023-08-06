@@ -4,4 +4,4 @@ project(length-disassembler)
 set(CMAKE_CXX_STANDARD 23)
 
 add_library(length-disassembler INTERFACE)
-target_include_directories(length-disassembler INTERFACE headerOnly)
+target_include_directories(length-disassembler INTERFACE "${PROJECT_SOURCE_DIR}/headerOnly")
